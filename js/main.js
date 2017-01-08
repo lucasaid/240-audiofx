@@ -1,4 +1,4 @@
-var TestAudio = new AudioFX("audio/test.mp3", function(){
+var TestAudio = new AudioFX("audio/recording.wav", function(){
     document.addEventListener('mousemove', function(e){
       var f = e.pageX / window.innerWidth;
       var q = e.pageY / window.innerHeight;

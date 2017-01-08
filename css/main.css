@@ -11,9 +11,16 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #EEE;
     font-size: 1em;
     line-height: 1.4;
+    background-color: #50608F;
+}
+h1 {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 /*
