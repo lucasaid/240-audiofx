@@ -1,3 +1,11 @@
 var TestAudio = new AudioFX("audio/test.mp3", function(){
-  this.play(0);
+    document.addEventListener('mousemove', function(e){
+      var f = e.pageX / window.innerWidth;
+      var q = e.pageY / window.innerHeight;
+      TestAudio.changeFilter(f,q);
+    });
+}, {
+  loop: true,
+  volume: 0.85,
+  autoplay: true
 });
