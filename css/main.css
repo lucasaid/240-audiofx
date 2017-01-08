@@ -16,11 +16,12 @@ html {
     line-height: 1.4;
     background-color: #50608F;
 }
-h1 {
+section {
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /*
